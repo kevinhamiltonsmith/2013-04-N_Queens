@@ -1,0 +1,38 @@
+N QUEENS SPEED TESTS
+
+First Working Case (countNQueens passing all tests for 0 - 8 boards)
+- custom tests
+Number of solutions for 1 queens: 1 in 0 milliseconds solvers.js:257
+Number of solutions for 2 queens: 0 in 0 milliseconds solvers.js:257
+Number of solutions for 3 queens: 0 in 0 milliseconds solvers.js:257
+Number of solutions for 4 queens: 2 in 0 milliseconds solvers.js:257
+Number of solutions for 5 queens: 10 in 4 milliseconds solvers.js:257
+Number of solutions for 6 queens: 4 in 29 milliseconds solvers.js:257
+Number of solutions for 7 queens: 40 in 484 milliseconds solvers.js:257
+Number of solutions for 8 queens: 92 in 9137 milliseconds solvers.js:257
+Number of solutions for 9 queens: 352 in 211341 milliseconds solvers.js:257
+
+-------------------------------------------------------------------
+Run test for valid board each iteration (Prune branches on each iteration to improve speed)
+
+Number of solutions for 1 queens: 1 in 1 milliseconds solvers.js:149
+Number of solutions for 2 queens: 0 in 0 milliseconds solvers.js:149
+Number of solutions for 3 queens: 0 in 0 milliseconds solvers.js:149
+Number of solutions for 4 queens: 2 in 0 milliseconds solvers.js:149
+Number of solutions for 5 queens: 10 in 4 milliseconds solvers.js:149
+Number of solutions for 6 queens: 4 in 10 milliseconds solvers.js:149
+Number of solutions for 7 queens: 40 in 44 milliseconds solvers.js:149
+Number of solutions for 8 queens: 92 in 317 milliseconds solvers.js:149
+Number of solutions for 9 queens: 352 in 2393 milliseconds solvers.js:149
+
+Changed to single line data storage
+
+Number of solutions for 1 queens: 1 in 0 milliseconds solvers.js:136
+Number of solutions for 2 queens: 0 in 0 milliseconds solvers.js:136
+Number of solutions for 3 queens: 0 in 0 milliseconds solvers.js:136
+Number of solutions for 4 queens: 2 in 3 milliseconds solvers.js:136
+Number of solutions for 5 queens: 10 in 2 milliseconds solvers.js:136
+Number of solutions for 6 queens: 4 in 4 milliseconds solvers.js:136
+Number of solutions for 7 queens: 40 in 15 milliseconds solvers.js:136
+Number of solutions for 8 queens: 92 in 46 milliseconds solvers.js:136
+Number of solutions for 9 queens: 352 in 215 milliseconds 
